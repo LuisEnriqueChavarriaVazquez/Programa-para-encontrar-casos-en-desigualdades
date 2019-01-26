@@ -1,0 +1,798 @@
+
+@font-face {
+    font-family: "strong";
+    src: url(../fonts/roboto/RobotoCondensed-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "thiner";
+    src: url(../fonts/roboto/RobotoCondensed-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "cursive";
+    src: url(../fonts/roboto/GH.ttf) format("truetype");
+}
+
+
+.linked{
+	text-decoration: none;
+	color: white;
+}
+
+.linked_b{
+	text-decoration: none;
+	color: #01579B;
+}
+
+.centerer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title_code{ font-family: "strong";}
+.strong{ font-family: "strong"; font-size: 25px;}
+.strongly{ font-family: "thiner"; font-size: 25px;}
+.tiny{ font-family: "thiner"; font-size: 10px;}
+.tinymini{ font-family: "thiner"; font-size: 4px;}
+.huge{ font-family: "thiner"; font-size: 20px;}
+.omega{ font-family: "thiner"; font-size: 40px;}
+.thiner{ font-family: "thiner"; font-size: 15px;}
+.cursiveTiny{ font-family: "cursive"; font-size: 15px;}
+.cursive{ font-family: "cursive"; font-size: 25px;}
+.cursiveBIG{ font-family: "cursive"; font-size: 65px;}
+.withoutmarginbottomtop{margin-bottom: 0px; margin-top: -1px;}
+.withoutmarginbottomtopprincipal{margin-bottom: 0px; margin-top: 10px;}
+.icocall{ font-size: 23px;}
+.icoReturnLeftMenu{ font-size: 40px;}
+
+
+.general_text{
+  text-align: justify;
+}
+
+/*en la parte de arriba estan nuestras fuentes*/
+
+body,html{
+background-color: #fff;
+height: 100%;
+margin: 0;}
+
+.fullHeight{
+  height: 100%;
+}
+
+
+
+
+.ultra{
+	padding-top: 100px;
+	background-color: #01579B;
+	width: 100%;
+	height: 100px;}
+
+.conmargin{
+	padding:20px;}
+
+.margin-down{
+	margin-bottom: 10px;}
+
+  .margin-down-bigger{
+  	margin-bottom: 10px;}
+
+	.conmarginslider{
+	padding-top:30px;
+	padding-bottom: 30px;}
+
+.marginer{
+	margin: 20px;}
+
+
+.paddinger{
+	padding: 20px;
+
+}
+
+.paddingerBrowser{
+	padding: 60px;
+}
+
+.contank{
+	padding: 10px;
+background: #1e88e5;}
+
+.contank_brand{
+	padding-right: 10%;
+	padding-left: 10%;
+background: #1e88e5;}
+
+.contankleftoh{
+  	padding-left:4.5px;
+    padding-right: 0px;}
+
+.contankv{
+	padding-top: 60px;
+	padding-bottom: 20px;}
+
+.contank_mini{
+	padding: 10px;}
+
+.contank_mini_title{
+	padding: 10px 20px 0px 20px;
+	margin-bottom: 0px;}
+
+.contank_zero{
+	padding-top: 15px;
+	padding-bottom: 15px;}
+
+.contanker{
+	padding: 20px;
+}
+
+.position{
+	z-index: 1000;}
+
+.logo-menu{
+  width: 35px;
+  height: 35px;
+}
+
+/*Estas son las clases especiales con las que
+contamos dentro de la pagina para diseños especificos.*/
+
+
+/*Menu styles, todo para decorar el menu de la mejor manera*/
+
+.menu_container{
+	background-color:#ECEFF1;
+	color: #01579B;
+	height: 50px;
+	width: 100%;
+  padding:0px;}
+	.menu_logo{
+		height: 50px;
+		padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+		color: #01579B;
+		display: flex; justify-content: center;}
+	.menu_options{
+
+		height: 50px;}
+			.menu_options_option2{
+				padding: 50px;
+        height: 50px;
+				color:#01579B;
+      display: flex;
+      justify-content:center;}
+
+        .menu-lateral-activador{
+          display: none;
+        }
+
+
+		.icon_menu_size{
+			font-size:22px;
+		}
+
+
+/*Efectos adicionales para el menu con super efectos scroleables increibles.*/
+.menu_fixed_on{
+	position: fixed;
+	width: 100%;
+	z-index: 900;
+	top: -5px;}
+
+.headroom{
+	transition: transform .5s ease-in-out;}
+
+.headroom--pinned{
+	transform: translateY(0%);
+}
+
+.headroom--unpinned{
+	transform: translateY(-85%);
+}
+
+
+
+
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*Aqui van los titulos principiles con todas sus clases y variantes.*/
+
+.caja{
+	color:#fff;
+	background-color:#1738B4;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	font-family: roboto;
+	margin-bottom: 20px;
+	box-shadow: 0px 5px 10px #787272;
+	font-family: thiner;
+	border-radius: 5px;
+	font-size: 9px;
+	display: flex; align-items: center; justify-content: center; flex-direction: row;
+}
+
+.cajaverde{
+	color:#fff;
+	background-color:#0F802A;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	font-family: roboto;
+	margin-bottom: 20px;
+	box-shadow: 0px 5px 10px #787272;
+	font-family: thiner;
+	border-radius: 5px;
+	font-size: 9px;
+	display: flex; align-items: center; justify-content: center; flex-direction: row;
+}
+
+.cajasimple{
+	color:#000;
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+	margin-bottom: 10px;
+	font-family: thiner;
+	font-size: 7px;
+	display: flex; align-items: center; justify-content: center; flex-direction: row;
+}
+
+.title_lb{
+	color:#fff;
+	background-color:#1976d2;
+	text-align: center;
+	padding: 10px;
+	font-family: thiner;
+	font-size: 25px;
+	display: flex; align-items: center; justify-content: center; flex-direction: row;}
+.title_lb_white{
+		color:#01579B;
+		height: 35px;
+		background-color:#fff;
+		text-align: center;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;}
+.title_lb_white_path{
+		color:#01579B;
+		font-family: thiner;
+		padding: 10px;
+		background-color:#F5F5F5;
+		text-align: center;
+		font-size: 25px;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;}
+.title_lb_white_large{
+		color:#90A4AE;
+		height: 40px;
+		background-color:#fff;
+		text-align: left;
+   		 padding: 10px;
+		display: flex; align-items: center; justify-content: left; flex-direction: row;}
+.title_lb_gray{
+		color:#263238;
+		height: 35px;
+		background-color:#F5F5F5;
+		text-align: justify;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+.title_lb_blue{
+		color:#fff;
+		background-color:#01579B;
+		text-align: justify;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+.title_lb_amber{
+		color:#fff;
+		height: 28px;
+		background-color:#ef6c00;
+		text-align: left;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+.title_lb_green{
+		color:#fff;
+		height: 28px;
+		background-color:#9e9d24;
+		text-align: left;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+.title_lb_purple{
+		color:#fff;
+		height: 28px;
+		background-color:#4a148c;
+		text-align: left;
+		display: flex; align-items: center; justify-content: center; flex-direction: row;
+		border-radius: 3px;}
+
+/*Para textos*/
+
+    .title_lb_gray_path{
+    		color:#263238;
+    		background-color:#ECEFF1;
+    		text-align: justify;
+    		display: flex; align-items: center; justify-content: center; flex-direction: row;
+    		border-radius: 3px; margin: 5px; padding: 10px;}
+
+
+.border_rounder_top{
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;}
+.border_rounder_bottom{
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.border_all{
+	border-radius: 10px;
+}
+
+.button_width{
+	width: 250px;
+}
+
+/*here is the class from the titles*/
+
+/*here is the class for all the boxes whit great style*/
+.carousel_shower{
+	background-color:#fff;
+width: 100%;}
+
+/*Cambiuo para propiedades de footer dinamico*/
+
+.cards_cont{
+	background-color:#ECEFF1;
+}
+
+.card_font_slider_one_user{
+	background-image: url('../img/userPhoto.png');
+	background-position: left;
+	height: 100px;
+	width: 100%;
+}
+
+.card_font_slider_one_2{
+	background-image: url('../img/card_two.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_3{
+	background-image: url('../img/card_three.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_4{
+	background-image: url('../img/card_four.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+
+.card_font_slider_one_5{
+	background-image: url('../img/card_five.png');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_6{
+	background-image: url('../img/card_six.png');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.card_font_slider_one_7{
+	background-image: url('../img/card_seven.png');
+	background-size: cover;
+	background-position: center;
+	height: 160px;
+	width: 100%;
+}
+
+.transitor{
+	transition: all 1s ease;
+}
+
+.preloader {
+width: 100%;
+z-index: 1000;}
+
+ .sliderm{
+ 	height: 150px;
+ }
+
+
+
+
+ .container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.container > div {
+  white-space: nowrap;
+  position: relative;
+  transition: all 0.6s ease-in-out;
+}
+
+.content {
+  background: red;
+  display: inline-block;
+  padding: 4em;
+  margin-right: 1em;
+  text-align: center;
+}
+
+.no-border{
+	border-radius: 0px;
+}
+
+
+.elementosSlider{
+	width: 100px;
+	height: 55px;
+	border-radius: 5px;
+  	z-index: 2000;
+	color: #fff;
+	display: flex; align-items: center; align-ent: center; justify-content: center;
+}
+
+.videocontank{
+	width: 100%;
+}
+
+/*Table style from search box*/
+
+#table-style{
+	width: 100%;
+	margin: auto;
+	background: #fff;
+	opacity: .95;
+	padding: 0 10px;
+	padding-bottom: 5px;
+	display: none;
+}
+
+.element-table{
+	width: 100%;
+	height: 0px;
+}
+
+tbody tr td a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #737373;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.dataTables_length, .dataTables_filter, .dataTables_info, .dataTables_paginate{
+	display: none;
+}
+
+/* pro content */
+
+.containerPRO{
+	padding: 0px 5px 5px 15px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.marginItemPRO{
+	margin-bottom: 20px;
+}
+.boldMore{
+	font-weight: bold;
+	color: black;
+}
+
+.botonDeCompra{
+  width: 100%;
+}
+
+.wallpaperShowOne{
+  background-image: url('../img/PRO-CONTENT/cards/unlocked.png');
+  background-position: center;
+  background-repeat: no-repeat;}
+
+  .wallpaperShowTwo{
+    background-image: url('../img/PRO-CONTENT/cards/cars.png');
+    background-position: center;
+    background-repeat: no-repeat;}
+
+    .wallpaperShowThree{
+      background-image: url('../img/PRO-CONTENT/cards/content.png');
+      background-position: center;
+      background-repeat: no-repeat;}
+
+      .wallpaperShowFour{
+        background-image: url('../img/PRO-CONTENT/cards/adds.png');
+        background-position: center;
+        background-repeat: no-repeat;}
+
+        .wallpaperShowFive{
+          background-image: url('../img/PRO-CONTENT/cards/users.png');
+          background-position: center;
+          background-repeat: no-repeat;}
+
+          .wallpaperShowSix{
+            background-image: url('../img/PRO-CONTENT/cards/saved.png');
+            background-position: center;
+            background-repeat: no-repeat;}
+
+
+
+
+.bannerInicio {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 250px;
+}
+
+.bannerInicioComponent{
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bannerInicioItem{
+	width: 100%;
+  height: 100%;
+  min-height: 600px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+            .wallpaperLogo{
+            background-image: url('../img/PRO-CONTENT/cards/logoBanner.png');
+            background-position: center;
+            background-repeat: no-repeat;}
+
+
+.brands-configuration{
+	width: 100px;
+	height: 100px;
+	border-radius: 15px;
+}
+
+.brands-configuration-selector{
+	width: 78px;
+	height: 70px;
+	border-radius: 8px;
+	margin: 0px;
+
+}
+		@media (min-width: 460px) {
+			.brands-configuration-selector{
+			width: 105px;
+			height: 97px;
+			}
+		}
+
+
+
+
+.containerPRObrand{
+	padding:10%;
+	padding-top: 0px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (min-width: 420px) {
+			.containerPRObrand{
+			padding:14%;
+			padding-top: 0px;
+			}
+		}
+
+.fondo_alfa{background-image: url('../img/brands/LOGO_ALFA.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_bmw{background-image: url('../img/brands/LOGO_BMW.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_audi{background-image: url('../img/brands/LOGO_AUDI.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_cadillac{background-image: url('../img/brands/LOGO_CADILLAC.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_chevrolet{background-image: url('../img/brands/LOGO_CHEVROLET.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_chrysler{background-image: url('../img/brands/LOGO_CHRYSLER.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_citroen{background-image: url('../img/brands/LOGO_CITROEN.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_dacia{background-image: url('../img/brands/LOGO_DACIA.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_daewoo{background-image: url('../img/brands/LOGO_DAEWOO.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_dodge{background-image: url('../img/brands/LOGO_DODGE.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_fiat{background-image: url('../img/brands/LOGO_FIAT.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_ford{background-image: url('../img/brands/LOGO_FORD.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_gm{background-image: url('../img/brands/LOGO_GM.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_greatwall{background-image: url('../img/brands/LOGO_GREATWALL.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_honda{background-image: url('../img/brands/LOGO_HONDA.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_hyundai{background-image: url('../img/brands/LOGO_HYUNDAI.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_jaguar{background-image: url('../img/brands/LOGO_JAGUAR.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_iveco{background-image: url('../img/brands/LOGO_IVECO.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_jeep{background-image: url('../img/brands/LOGO_JEEP.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_isuzu{background-image: url('../img/brands/LOGO_ISUZU.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_landrover{background-image: url('../img/brands/LOGO_LANDROVER.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_lancia{background-image: url('../img/brands/LOGO_LANCIA.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_kia{background-image: url('../img/brands/LOGO_KIA.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_mg{background-image: url('../img/brands/LOGO_MG.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_mini{background-image: url('../img/brands/LOGO_MINI.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_mercedes{background-image: url('../img/brands/LOGO_MERCEDES.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_mazda{background-image: url('../img/brands/LOGO_MAZDA.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_opel{background-image: url('../img/brands/LOGO_OPEL.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_nissan{background-image: url('../img/brands/LOGO_NISSAN.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_porche{background-image: url('../img/brands/LOGO_PORCHE.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_renault{background-image: url('../img/brands/LOGO_RENAULT.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_rover{background-image: url('../img/brands/LOGO_ROVER.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_pontiac{background-image: url('../img/brands/LOGO_PONTIAC.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_wolks{background-image: url('../img/brands/LOGO_WOLKS.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_toyota{background-image: url('../img/brands/LOGO_TOYOTA.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_peugeot{background-image: url('../img/brands/LOGO_PEUGEOT.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_saab{background-image: url('../img/brands/LOGO_SAAB.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_skoda{background-image: url('../img/brands/LOGO_SKODA.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_smart{background-image: url('../img/brands/LOGO_SMART.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_seat{background-image: url('../img/brands/LOGO_SEAT.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_ssangyong{background-image: url('../img/brands/LOGO_SSANGYONG.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_lexus{background-image: url('../img/brands/LOGO_LEXUS.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_mitsubishi{background-image: url('../img/brands/LOGO_MITSUBISHI.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_buick{background-image: url('../img/brands/LOGO_BUICK.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_acura{background-image: url('../img/brands/LOGO_ACURA.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_oldsmobile{background-image: url('../img/brands/LOGO_OLDSMOBILE.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_gral{background-image: url('../img/brands/LOGO_GRAL.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_volvo{background-image: url('../img/brands/LOGO_VOLVO.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_gmc{background-image: url('../img/brands/LOGO_GMC.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_lincon{background-image: url('../img/brands/LOGO_LINCON.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_infiniti{background-image: url('../img/brands/LOGO_INFINITI.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_saturn{background-image: url('../img/brands/LOGO_SATURN.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_scion{background-image: url('../img/brands/LOGO_SCION.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_suzuki{background-image: url('../img/brands/LOGO_SUZUKI.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_mercury{background-image: url('../img/brands/LOGO_MERCURY.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+.fondo_subaru{background-image: url('../img/brands/LOGO_SUBARU.png');
+	background-position: center; background-size: cover; background-repeat: no-repeat;}
+
+
+
+.code_box{
+	background-color: #fff;
+	border-radius: 5px;
+	width: 85px;
+	font-weight: bold;
+	height: 30px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
