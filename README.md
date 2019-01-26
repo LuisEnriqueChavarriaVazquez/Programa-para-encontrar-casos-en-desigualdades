@@ -8,17 +8,17 @@
 
 ### Ejemplos de desigualdades que requieren conocer los casos a emplear.
 
-![](C:\Users\Ricardo\Desktop\Github's repositories\JS programs\PROGRAMA  PERMUTADOR\20190126_004442.jpg)
+![](1.jpg)
 
 
 
-![20190126_004456](C:\Users\Ricardo\Desktop\Github's repositories\JS programs\PROGRAMA  PERMUTADOR\20190126_004456.jpg)
+![20190126_004456](2.jpg)
 
-![20190126_004527](C:\Users\Ricardo\Desktop\Github's repositories\JS programs\PROGRAMA  PERMUTADOR\20190126_004527.jpg)
+![20190126_004527](3.jpg)
 
-![20190126_004547](C:\Users\Ricardo\Desktop\Github's repositories\JS programs\PROGRAMA  PERMUTADOR\20190126_004547.jpg)
+![20190126_004547](4.jpg)
 
-![20190126_004630](C:\Users\Ricardo\Desktop\Github's repositories\JS programs\PROGRAMA  PERMUTADOR\20190126_004630.jpg)
+![20190126_004630](5.jpg)
 
 ### Uso
 
@@ -28,9 +28,9 @@
 
   >  <b>Los botones en rojo son procesos muy lentos y podrian trabar el programa, por la gran cantidad de combinaciones</b>
 
-  ![](C:\Users\Ricardo\Desktop\Github's repositories\JS programs\PROGRAMA  PERMUTADOR\p1.jpg)
+  ![](p.jpg)
 
-![](C:\Users\Ricardo\Desktop\Github's repositories\JS programs\PROGRAMA  PERMUTADOR\p.jpg)
+![](p1.jpg)
 
 ###### Realizado en colaboración con la colaboración del Dr. Encarnación Salinas , profesor de la Escuela Superior de Cómputo. (2018).
 
