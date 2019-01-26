@@ -28,9 +28,9 @@
 
   >  <b>Los botones en rojo son procesos muy lentos y podrian trabar el programa, por la gran cantidad de combinaciones</b>
 
-  ![](C:\Users\Ricardo\Desktop\Github's repositories\JS programs\PROGRAMA  PERMUTADOR\p1.PNG)
+  ![](C:\Users\Ricardo\Desktop\Github's repositories\JS programs\PROGRAMA  PERMUTADOR\p1.jpg)
 
-![](C:\Users\Ricardo\Desktop\Github's repositories\JS programs\PROGRAMA  PERMUTADOR\p.png)
+![](C:\Users\Ricardo\Desktop\Github's repositories\JS programs\PROGRAMA  PERMUTADOR\p.jpg)
 
 ###### Realizado en colaboración con la colaboración del Dr. Encarnación Salinas , profesor de la Escuela Superior de Cómputo. (2018).
 
